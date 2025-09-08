@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<HTML língua="pt-BR">
-<caboça>
-  <meta conjunto de caracteres="UTF-8">
-  <meta nome="janela de visualização" conteúdo="largura=largura do dispositivo, escala inicial=1,0">
-  <meta http-equiv="Controle de cache" conteúdo="público, idade máxima=31536000">
-  <meta nome="descrição" conteúdo="Blog pessoal de Paulo Weiss sobre tecnologia, desenvolvimento e portfólio.">
-  <título>Meu Blog Pessoal</título>
-  <link relação="pré-carregamento" href="ativos/css/estilos.min.css" como="estilo">
-  <link relação="pré-carregamento" href="https://cdn.jsdelivr.net/npm/marked@4.0.12/lib/marked.min.js">
-  <link relação="folha de estilo" href="ativos/css/estilos.min.css">
-  <link relação="folha de estilo" href="ativos/css/estilo.css">
-</caboça>
-<corpo>
-  <caboçalho>
-    <navegação rótulo de ária="Principal do menu">
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="public, max-age=31536000">
+  <meta name="description" content="Blog pessoal de Paulo Weiss sobre tecnologia, desenvolvimento e portfólio.">
+  <title>Meu Blog Pessoal</title>
+  <link rel="preload" href="assets/css/styles.min.css" as="style">
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/marked@4.0.12/lib/marked.min.js">
+  <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+<body>
+  <header>
+    <nav aria-label="Menu principal">
       <ul>
-        <eu><a href="índice.html">Início</a></eu>
-        <eu><a href="sobre.html">Sobre</a></eu>
-        <eu><a href="portfólio.html">Portfólio</a></eu>
-        <eu><a href="contato.html">Contato</a></eu>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contact.html">Contato</a></li>
       </ul>
-    </navegação>
+    </nav>
     <h1>Bem-vindo ao Meu Blog Pessoal</h1>
-  </caboçalho>
-  <principal>
-    <sessão>
-      <h2>Postagens Últimos</h2>
-      <entrada tipo="texto" id="barra de pesquisa" espanhol reservado="Postes de ônibus...">
-      <dividir id="contêiner de postes"></dividir>
-    </sessão>
-  </principal>
-  <rodapé>
-    <p>&copia; Meu Blog Pessoal 2025. Todos os direitos reservados.</p>
-  </rodapé>
+  </header>
+  <main>
+    <section>
+      <h2>Últimos Posts</h2>
+      <input type="text" id="search-bar" placeholder="Buscar posts...">
+      <div id="posts-container"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Meu Blog Pessoal. Todos os direitos reservados.</p>
+  </footer>
